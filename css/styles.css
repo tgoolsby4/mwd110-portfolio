@@ -11,3 +11,31 @@ body {
   width: 200px;
   height: 200px;
 }
+
+#videos {
+  background-color: hsl(0, 100%, 100%);
+}
+
+#one {
+  border: 2px solid hsl(0, 0%, 0%);
+}
+
+#two {
+  border: 2px solid hsl(0, 0%, 0%);
+}
+
+#three {
+  border: 2px solid hsl(0, 0%, 0%);
+}
+
+#four {
+  border: 2px solid hsl(0, 0%, 0%);
+}
+
+#five {
+  border: 2px solid hsl(0, 0%, 0%);
+}
+
+#six {
+  border: 2px solid hsl(0, 0%, 0%);
+}
