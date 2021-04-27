@@ -12,30 +12,54 @@ body {
   height: 200px;
 }
 
-#videos {
-  background-color: hsl(0, 100%, 100%);
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 #one {
+  background-color: hsl(0, 100%, 100%);
   border: 2px solid hsl(0, 0%, 0%);
+  width: 400px;
+  height: 200px;
 }
 
 #two {
+  background-color: hsl(0, 100%, 100%);
   border: 2px solid hsl(0, 0%, 0%);
+  width: 400px;
+  height: 200px;
 }
 
 #three {
+  background-color: hsl(0, 100%, 100%);
   border: 2px solid hsl(0, 0%, 0%);
+  width: 400px;
+  height: 200px;
 }
 
 #four {
+  background-color: hsl(0, 100%, 100%);
   border: 2px solid hsl(0, 0%, 0%);
+  width: 400px;
+  height: 200px;
 }
 
 #five {
+  background-color: hsl(0, 100%, 100%);
   border: 2px solid hsl(0, 0%, 0%);
+  width: 400px;
+  height: 200px;
 }
 
 #six {
+  background-color: hsl(0, 100%, 100%);
   border: 2px solid hsl(0, 0%, 0%);
+  width: 400px;
+  height: 200px;
 }
