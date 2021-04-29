@@ -23,43 +23,37 @@ body {
 }
 
 #one {
-  background-color: hsl(0, 100%, 100%);
-  border: 2px solid hsl(0, 0%, 0%);
+  border: 3px solid hsl(0, 100%, 100%);
   width: 400px;
   height: 200px;
 }
 
 #two {
-  background-color: hsl(0, 100%, 100%);
-  border: 2px solid hsl(0, 0%, 0%);
+  border: 3px solid hsl(0, 100%, 100%);
   width: 400px;
   height: 200px;
 }
 
 #three {
-  background-color: hsl(0, 100%, 100%);
-  border: 2px solid hsl(0, 0%, 0%);
+  border: 3px solid hsl(0, 100%, 100%);
   width: 400px;
   height: 200px;
 }
 
 #four {
-  background-color: hsl(0, 100%, 100%);
-  border: 2px solid hsl(0, 0%, 0%);
+  border: 3px solid hsl(0, 100%, 100%);
   width: 400px;
   height: 200px;
 }
 
 #five {
-  background-color: hsl(0, 100%, 100%);
-  border: 2px solid hsl(0, 0%, 0%);
+  border: 3px solid hsl(0, 100%, 100%);
   width: 400px;
   height: 200px;
 }
 
 #six {
-  background-color: hsl(0, 100%, 100%);
-  border: 2px solid hsl(0, 0%, 0%);
+  border: 3px solid hsl(0, 100%, 100%);
   width: 400px;
   height: 200px;
 }
