@@ -5,6 +5,28 @@ body {
   font-family: 'Alice', serif;
 }
 
+.HeadDiv {
+  border: 10px outset maroon;
+  background-color: gold;
+  text-align: center;
+}
+
+.Div1 {
+  background-color: hsl(0, 0%, 20%);
+}
+
+.blogText {
+  border: 2px outset black;
+  background-color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+.blogText:hover {
+  transition: transform .5s;
+  transform: translate(5px, 5px);
+}
+
 #transform {
   background-color: blue;
   color: white;
@@ -56,4 +78,8 @@ body {
   border: 3px solid hsl(0, 100%, 100%);
   width: 400px;
   height: 200px;
+}
+
+#blog {
+  background-color: hsl(0, 100%, 100%);
 }
