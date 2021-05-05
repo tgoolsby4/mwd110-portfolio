@@ -27,6 +27,13 @@ body {
   transform: translate(5px, 5px);
 }
 
+.video {
+  border: 3px solid hsl(0, 100%, 100%);
+  width: 400px;
+  height: 200px;
+  visibility: hidden;
+}
+
 #transform {
   background-color: blue;
   color: white;
@@ -42,42 +49,6 @@ body {
 #bottom {
   display: flex;
   justify-content: space-between;
-}
-
-#one {
-  border: 3px solid hsl(0, 100%, 100%);
-  width: 400px;
-  height: 200px;
-}
-
-#two {
-  border: 3px solid hsl(0, 100%, 100%);
-  width: 400px;
-  height: 200px;
-}
-
-#three {
-  border: 3px solid hsl(0, 100%, 100%);
-  width: 400px;
-  height: 200px;
-}
-
-#four {
-  border: 3px solid hsl(0, 100%, 100%);
-  width: 400px;
-  height: 200px;
-}
-
-#five {
-  border: 3px solid hsl(0, 100%, 100%);
-  width: 400px;
-  height: 200px;
-}
-
-#six {
-  border: 3px solid hsl(0, 100%, 100%);
-  width: 400px;
-  height: 200px;
 }
 
 #blog {
