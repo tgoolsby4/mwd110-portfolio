@@ -87,16 +87,20 @@ li {
   color: hsl(0, 0%, 25%);
 }
 
+.pageThree {
+  background-color: hsl(200, 95%, 55%);
+}
+
 #output {
   text-align: justify;
   margin: 25px;
 }
 
 #transform {
-  background-color: blue;
-  color: white;
-  width: 200px;
-  height: 200px;
+  color: hsl(231, 100%, 20%);
+  position: absolute;
+  white-space: pre;
+  font-family: Arial, sans-serif;
 }
 
 #blog {
@@ -113,4 +117,27 @@ li {
 #button1 {
   background-color: hsl(136, 33%, 43%);
   border-radius: 10px;
+}
+
+#tiny {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  white-space: pre;
+  font-family: Arial, sans-serif;
+  color: hsl(49, 100%, 60%);
+}
+
+#bottom {
+  position: absolute;
+  top: 500px;
+  white-space: pre;
+  color: hsl(119, 100%, 26%);
+}
+
+#thirdPageButton {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
 }
