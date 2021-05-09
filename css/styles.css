@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Alice);
 @import url(https://fonts.googleapis.com/css?family=Space+Mono);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
   background-color: hsl(200, 80%, 75%);
@@ -8,6 +9,17 @@ body {
 
 img {
   border: 2px solid black;
+  margin-right: 25px;
+}
+
+header {
+  background-color: hsl(136, 33%, 43%);
+  margin: -25px;
+  padding: 30px;
+}
+
+li {
+  padding: 10px;
 }
 
 .HeadDiv {
@@ -33,7 +45,7 @@ img {
 }
 
 .video {
-  border: 3px solid hsl(0, 100%, 100%);
+  border: 2px solid hsl(0, 0%, 38%);
   width: 400px;
   height: 200px;
   visibility: hidden;
@@ -53,6 +65,26 @@ img {
 .flex {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: justify;
+  margin-top: 25px;
+}
+
+.pageFour {
+  font-family: 'Open Sans', sans-serif;
+  background-color:   hsl(0, 0%, 13%);
+  color: hsl(0, 100%, 100%);
+}
+
+.pageTwo {
+  font-family: 'Courier New', monospace;
+  background-color: hsl(0, 100%, 100%);
+  color: hsl(0, 0%, 25%);
 }
 
 #output {
@@ -69,4 +101,16 @@ img {
 
 #blog {
   background-color: hsl(0, 100%, 100%);
+}
+
+#videoHead {
+  background-color: hsl(0, 100%, 50%);
+  padding: 10px;
+  border-radius: 5px;
+  width: 125px;
+}
+
+#button1 {
+  background-color: hsl(136, 33%, 43%);
+  border-radius: 10px;
 }

@@ -1,20 +1,17 @@
 window.onload = () => {
-    alert(`Hello!`);
 
     let buttonOne = document.querySelector(`#button1`);
     let inverted = false;
 
     let changeColor = () => {
         if(!inverted) {
-            let background = document.querySelector(`body`);
-            background.style.backgroundColor = `black`;
-            background.style.color = `white`;
+            let background = document.querySelector(`.pageTwo`);
+            background.style.backgroundColor = `hsl(0, 0%, 25%)`;
             inverted = true;
         }
         else {
-            let background = document.querySelector(`body`);
-            background.style.backgroundColor = `hsl(200, 80%, 75%)`;
-            background.style.color = `black`;
+            let background = document.querySelector(`.pageTwo`);
+            background.style.backgroundColor = `hsl(0, 100%, 100%)`;
             inverted = false;
         }
     }
