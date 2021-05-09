@@ -22,10 +22,16 @@ li {
   padding: 10px;
 }
 
+input {
+  padding: 10px;
+  width: 150px;
+}
+
 .HeadDiv {
   border: 10px outset maroon;
   background-color: gold;
   text-align: center;
+  font-family: Times New Roman, serif;
 }
 
 .Div1 {
