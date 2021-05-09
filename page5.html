@@ -5,12 +5,21 @@
   <title>MWD110 Portfolio</title>
   <meta name="description" content="Portfolio">
   <meta name="author" content="Thomas Goolsby">
-  <link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Space+Mono' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <h1>Fifth Page</h1>
-  <p></p>
-  <script src="js/app.js"></script>
+<body class="pageFive">
+  <h1>The Fibonacci Sequence</h1><br><br>
+  <p class="five">
+    The Fibonacci Sequence is a classic mathematics problems in which a collection of fibonacci numbers is given. A specific fibonacci number denoted F<sub>n</sub> is the sum of the two previous fibonacci numbers.
+  </p><br>
+  <div class="flex">
+    <div>
+      <p class="five">There are some preliminary base cases for the Fibonacci Sequence. The first and second fibonacci numbers are both 1. To give this in terms of fibonacci numbers; F<sub>1</sub> = 1, F<sub>2</sub> = 1. Therefore, in order to caluculate F<sub>3</sub>, we would have to take the sum of the two previous fibonacci numbers, so F<sub>3</sub> = F<sub>1</sub> + F<sub>2</sub>. If a value of 0 is provided, the resulting Fibonacci Sequence will simply have a value of 0 since there are no previous values to add together.</p>
+      <p id="output"></p>
+    </div>
+    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/fibonacci-sequence.png" alt="Fibonacci Sequence" width="650" height="400">
+  </div>
+  <script src="js/page5.js"></script>
 </body>
 </html>

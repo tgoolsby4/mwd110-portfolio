@@ -1,8 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Alice);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono);
 
 body {
   background-color: hsl(200, 80%, 75%);
   font-family: 'Alice', serif;
+}
+
+img {
+  border: 2px solid black;
 }
 
 .HeadDiv {
@@ -34,21 +39,32 @@ body {
   visibility: hidden;
 }
 
+.pageFive {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  background-color: hsl(25, 100%, 95%);
+}
+
+.five {
+  text-align: justify;
+  margin: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#output {
+  text-align: justify;
+  margin: 25px;
+}
+
 #transform {
   background-color: blue;
   color: white;
   width: 200px;
   height: 200px;
-}
-
-#top {
-  display: flex;
-  justify-content: space-between;
-}
-
-#bottom {
-  display: flex;
-  justify-content: space-between;
 }
 
 #blog {
