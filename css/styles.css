@@ -26,6 +26,10 @@ a {
   color: hsl(0, 100%, 100%);
 }
 
+h2 {
+  text-align: center;
+}
+
 .HeadDiv {
   border: 10px outset maroon;
   background-color: gold;
@@ -192,4 +196,12 @@ a {
   background-color: gold;
   padding: 10px;
   width: 150px;
+}
+
+#about {
+  font-size: 18px;
+}
+
+#linkedin {
+  color: hsl(0, 0%, 0%);
 }
