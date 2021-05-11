@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  background-color: hsl(155, 48%, 79%);
+  background-color: hsl(0, 0%, 80%);
   font-family: 'Alice', serif;
 }
 
@@ -20,11 +20,6 @@ header {
 
 li {
   padding: 10px;
-}
-
-input {
-  padding: 10px;
-  width: 150px;
 }
 
 a {
@@ -164,4 +159,37 @@ a {
 
 #ptero {
   color: hsl(0, 0%, 25%);
+}
+
+#pteroButton {
+  color: hsl(0, 100%, 100%);
+  background-color: hsl(136, 33%, 43%);
+  padding: 10px;
+  width: 150px;
+}
+
+#aquaButton {
+  background-color: hsl(200, 95%, 55%);
+  padding: 10px;
+  width: 150px;
+}
+
+#videoButton {
+  color: hsl(0, 100%, 100%);
+  background-color: hsl(0, 100%, 50%);
+  padding: 10px;
+  width: 150px;
+}
+
+#fibButton {
+  background-color: hsl(25, 100%, 95%);
+  padding: 10px;
+  width: 150px;
+}
+
+#blogButton {
+  color: maroon;
+  background-color: gold;
+  padding: 10px;
+  width: 150px;
 }
