@@ -27,6 +27,10 @@ input {
   width: 150px;
 }
 
+a {
+  color: hsl(0, 100%, 100%);
+}
+
 .HeadDiv {
   border: 10px outset maroon;
   background-color: gold;
@@ -146,4 +150,18 @@ input {
   border-radius: 5px;
   width: 100px;
   height: 50px;
+}
+
+#mytube {
+  background-color:   hsl(0, 0%, 8%);
+  height: 90px;
+  margin-bottom: 5px;
+}
+
+#sub {
+  margin-top: 40px;
+}
+
+#ptero {
+  color: hsl(0, 0%, 25%);
 }
